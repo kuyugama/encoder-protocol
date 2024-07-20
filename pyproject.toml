@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "encoder-protocol"
+version = "0.0.1"
+description = "encoder-protocol allows serialize/deserialize python objects to bytes"
+authors = ["kuyugama <mail.kuyugama@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
